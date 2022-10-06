@@ -16,10 +16,10 @@
                             <GradientStop Color="#FFD8E279" Offset="1"/>
                         </LinearGradientBrush>
                     </StackPanel.Background>
-                    <TextBlock FontSize="30" FontWeight="Bold" HorizontalAlignment="Center">Los Ángeles Lakers</TextBlock>
+                    <TextBlock FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap">Los Ángeles Lakers</TextBlock>
                     <WrapPanel HorizontalAlignment="Center">
-                        <Image MaxHeight="100" Source="assets/14_lakers.png"></Image>
-                        <Image MaxHeight="100" Source="assets/23_lakers.png"></Image>
+                        <Image MaxHeight="100" Source="assets/14_lakers.png"/>
+                    <Image MaxHeight="100" Source="assets/23_lakers.png"></Image>
                         <Image MaxHeight="100" Source="assets/3_lakers.png"></Image>
                         <Image MaxHeight="100" Source="assets/39_lakers.png"></Image>
                         <Image MaxHeight="100" Source="assets/9_lakers.png"></Image>
@@ -34,7 +34,7 @@
                         <GradientStop Color="#FFF90404" Offset="1"/>
                     </LinearGradientBrush>
                 </StackPanel.Background>
-                <TextBlock FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White">Miami Heat</TextBlock>
+                <TextBlock FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" TextAlignment="Center" TextWrapping="Wrap">Miami Heat</TextBlock>
                 <WrapPanel HorizontalAlignment="Center">
                     <Image MaxHeight="100" Source="assets/14_heat.png"></Image>
                     <Image MaxHeight="100" Source="assets/13_heat.png"></Image>
